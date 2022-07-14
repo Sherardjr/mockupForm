@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="overlay">
+      <form id="create-form">
+        <h1>Tech form mockup</h1>
+
+        <!-- Name -->
+        <div class="input-group">
+          <label for="username">Name:</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Your name"
+            name="username"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p>Error Message</p>
+        </div>
+
+        <!-- Email -->
+        <div class="input-group">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Your E-mail"
+            name="email"
+          />
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p>error message</p>
+        </div>
+
+        <!-- Date -->
+        <div class="input-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" placeholder="Date" name="date" />
+          <small class="error"></small>
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p>Select a date</p>
+        </div>
+
+        <!-- Radio Buttons -->
+        <label for="radio">Female</label>
+        <input type="radio" id="radio" placeholder="radio" name="radio1" />
+        <small class="error"></small>
+
+        <label for="radio2">Male</label>
+        <input type="radio" id="radio2" placeholder="radio" name="radio2" />
+
+        <!-- Checkbox -->
+        <label for="checkbox">Check if you are over the age of 18?</label>
+        <input
+          type="checkbox"
+          id="checkbox"
+          placeholder="checked"
+          name="checkbox"
+        />
+
+        <!-- Large text area -->
+        <div class="input-group">
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            placeholder="Your Message"
+            name="message"
+            rows="6"
+          ></textarea>
+          <i class="fa-solid fa-circle-check"></i>
+          <i class="fa-solid fa-circle-exclamation"></i>
+          <p>This field Cannot be left blank</p>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<!--   <i class="fa-solid fa-circle-check"></i>        -->
+<!--        <i class="fa-solid fa-circle-check"></i>      -->

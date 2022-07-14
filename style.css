@@ -1,0 +1,128 @@
+#app {
+  font-family: Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+form {
+  max-width: 550px;
+  width: 90%;
+  background-color: aliceblue;
+  margin: 17vh auto 0 auto;
+  padding: 40px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: poppins;
+  margin: 0;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-bottom: 1px solid rgb(75, 0, 100);
+}
+
+textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: aqua;
+}
+
+.center {
+  text-align: center;
+}
+
+input[type="submit"] {
+  margin-top: 30px;
+  width: 90%;
+  max-width: 200px;
+  background: linear-gradient(to right, rgb(75, 0, 100), rgb(100, 0, 50));
+  color: aliceblue;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.input-group label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  margin: 20px 0;
+  position: relative;
+}
+
+.input-group input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.success input {
+  border: 3px green solid;
+}
+
+.error input {
+  border: 3px red solid;
+}
+
+.input-group i {
+  position: absolute;
+  right: 10px;
+  top: 55px;
+  visibility: hidden;
+}
+
+.input-group p {
+  font-size: 15px;
+  color: red;
+  visibility: hidden;
+}
+
+.success i.fa-circle-check {
+  visibility: visible;
+  color: green;
+}
+
+.error i.fa-circle-exclamation {
+  visibility: visible;
+  color: red;
+}
+
+.error p {
+  visibility: visible;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: chocolate;
+  color: aliceblue;
+  text-transform: uppercase;
+  border: none;
+}
